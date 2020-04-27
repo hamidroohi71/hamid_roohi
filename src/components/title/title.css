@@ -1,0 +1,42 @@
+.mainTitle {
+  background-color: #ededed;
+  height: 100%;
+  padding: 20px 100px 0;
+  text-align: left;
+}
+
+img {
+  margin: 0;
+}
+
+h1 {
+  font-size: 72px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 50px;
+  margin: 0px;
+}
+
+h3 {
+  font-size: 40px;
+  margin: 0px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nameTitles {
+  float: left;
+  margin-bottom: 0;
+}
+
+.profilePic {
+  float: right;
+  margin-bottom: 0;
+  padding: 0;
+}
