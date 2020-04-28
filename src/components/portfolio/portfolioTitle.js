@@ -7,7 +7,8 @@ function PortfolioTitle() {
       <h1>HERE ARE SOME OF MY WORKS AS A DEVELOPER</h1>
       <p>
         You can visit th links and see the websites I created either for
-        practice or real custumors
+        practice or real custumors. this part is added to check the changes on github.
+        
       </p>
     </div>
   );
