@@ -4,13 +4,13 @@ import "./skillBar.css";
 function SkillBar() {
   return (
     <div class="container">
-      <h4>HTML</h4>
+      <h6>HTML</h6>
       <div class="bar advanced"></div>
-      <h4>CSS</h4>
+      <h6>CSS</h6>
       <div class="bar back advanced"></div>
-      <h4>Java Script</h4>
+      <h6>Java Script</h6>
       <div class="bar back intermediate"></div>
-      <h4>ReactJS</h4>
+      <h6>ReactJS</h6>
       <div class="bar front intermediate"></div>
     </div>
   );

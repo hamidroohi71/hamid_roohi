@@ -9,12 +9,13 @@ function TitlePart() {
       <div className=" nameTitles">
         <div className="names">
           <h4>Resume</h4>
-          <h2>HAY! THERE</h2>
-          <h1>I AM HAMID</h1>
-          <h3>A WEB DEVELOPER</h3>
+          <div className="names_main">
+            <h2>HAY! THERE</h2>
+            <h1>I AM HAMID</h1>
+            <h3>A WEB DEVELOPER</h3>
+          </div>
           <MyButton text="CONTACT ME" />
         </div>
-        
       </div>
       <div className="profilePic">
         <img src={hamid} />
