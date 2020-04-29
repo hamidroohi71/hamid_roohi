@@ -65,7 +65,7 @@ h6 {
   width: calc(40% - 10px);
 }
 .bar.intermediate::before {
-  width: calc(60% - 10px);
+  width: calc(70% - 10px);
 }
 .bar.advanced::before {
   width: calc(80% - 10px);

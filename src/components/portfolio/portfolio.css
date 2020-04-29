@@ -1,14 +1,19 @@
 h5 {
   font-size: 30px;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 20px;
 }
 
 .portfolioTitle {
-  padding: 110px;
+  padding: 0 110px;
   text-align: left;
 }
 
 .portfolioTitle p {
   font-size: 15px;
+  text-align: center;
+  margin-bottom: 60px;
 }
 
 .projects {
@@ -17,20 +22,7 @@ h5 {
   justify-content: center;
 }
 
-.singleProject {
-  display: block;
-  width: 80%;
-  background-image: url("./projects/novin.jpg");
-  height: 200px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-bottom: 50px;
-  color: white;
-}
+
 
 .singleProject a {
   font-size: 30px;
