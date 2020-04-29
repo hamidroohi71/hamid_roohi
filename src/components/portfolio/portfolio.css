@@ -1,14 +1,59 @@
 h5 {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .portfolioTitle {
-    padding: 110px;
-    text-align: left;
-
+  padding: 110px;
+  text-align: left;
 }
 
 .portfolioTitle p {
-    font-size: 15px;
-    
+  font-size: 15px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.singleProject {
+  display: block;
+  width: 80%;
+  background-image: url("./projects/novin.jpg");
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.singleProject a {
+  font-size: 30px;
+}
+
+.singleProject p {
+  font-size: 20px;
+}
+
+.singleProject span {
+  background: rgba(0, 0, 0, 0.7);
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  transition: 1s;
+}
+
+.singleProject:hover span {
+  opacity: 1;
+}
+
+.singleProject a:hover {
+  cursor: pointer;
 }
