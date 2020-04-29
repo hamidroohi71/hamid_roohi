@@ -1,6 +1,7 @@
 import React, { component } from "react";
 import "./introduction.css";
 import MyButton from "../myButton";
+import SkillBar from "./skillBar";
 
 function History() {
   return (
@@ -29,13 +30,8 @@ function History() {
         <MyButton text="Download CV" />
       </div>
       <div className="historyParts">
-        <h2>TECHNOLOGIES </h2>
-        <ul>
-          <li>Html5</li>
-          <li>Css</li>
-          <li>Java Script</li>
-          <li>ReactJS</li>
-        </ul>
+        
+        <SkillBar />
       </div>
     </div>
   );

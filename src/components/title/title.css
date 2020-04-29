@@ -1,8 +1,21 @@
 .mainTitle {
+  position: relative;
+  display: block;
   background-color: #ededed;
   height: 100%;
-  padding: 20px 100px 0;
+  padding: 20px 0px 0px 100px;
   text-align: left;
+  animation-name: appearance;
+  animation-duration: 8s;
+}
+
+@keyframes appearance {
+  from {
+    display: none;
+  }
+  to {
+    display: block;
+  }
 }
 
 img {
@@ -36,7 +49,19 @@ h4 {
 }
 
 .profilePic {
+  position: absolute;
+  right: 200px;
+  bottom: 0px;
   float: right;
   margin-bottom: 0;
   padding: 0;
+  animation-name: profile-app;
+  animation-duration: 2s;
+}
+
+@keyframes profile-app {
+  from {
+    right: 0;
+    opacity: 0;
+  }
 }
