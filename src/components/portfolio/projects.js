@@ -7,7 +7,7 @@ import hamid from "./projects/hamid.jpg";
 
 function Projects() {
   return (
-    <div>
+    <div >
       <div className="projects">
         <SingleProject img1={novin} />
       </div>

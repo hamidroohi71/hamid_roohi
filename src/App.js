@@ -4,6 +4,7 @@ import TitlePart from "./components/title/titlePart";
 import ShortIntro from "./components/introductionPart/shortIntroduce";
 import History from "./components/introductionPart/history";
 import Portfolio from "./components/portfolio/portfolio";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <ShortIntro />
       <History />
       <Portfolio />
+      <Footer />
     </div>
   );
 }
