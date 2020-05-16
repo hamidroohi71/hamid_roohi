@@ -29,7 +29,7 @@ function History() {
             developer. Now I am more intent to select this way as my main way to
             the success, the way which I love it and can feel alive in that.
           </p>
-          <MyButton text="Download CV" />
+          <MyButton text="Download CV" link="https://drive.google.com/file/d/1BqtpwTfaHlmTLyMnb8JZLIhzIUFZBa1m/view?usp=sharing" />
         </div>
         <div className="historyParts">
           <SkillBar />

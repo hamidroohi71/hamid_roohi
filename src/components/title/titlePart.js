@@ -15,7 +15,7 @@ function TitlePart() {
             <h1>I AM HAMID</h1>
             <h3>A WEB DEVELOPER</h3>
           </div>
-          <MyButton text="CONTACT ME" />
+          <MyButton text="CONTACT ME" link="#footer" />
         </div>
       </div>
       <div className="profilePic col-5">

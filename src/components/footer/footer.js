@@ -5,7 +5,10 @@ function Footer() {
   return (
     <div className="row">
       <div className="footer">
-        <footer></footer>
+        <footer id="footer">
+          <p>phone : +98-910-778-5026</p>
+          <p>E-mail : hamidroohi71@gmail.com</p>
+        </footer>
       </div>
     </div>
   );

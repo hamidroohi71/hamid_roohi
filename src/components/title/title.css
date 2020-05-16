@@ -3,7 +3,7 @@
   display: block;
   background-color: #ededed;
   /* height: 100%; */
-  padding: 20px 20px 0px ;
+  padding: 20px 20px 0px;
   text-align: left;
   animation-name: appearance;
   animation-duration: 8s;
@@ -86,6 +86,9 @@ h4 {
   animation-name: profile-app;
   animation-duration: 3s;
   height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .profilePic img {
@@ -103,23 +106,108 @@ h4 {
 }
 
 .names {
-  /* height: 100%; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  text-align: center;
 }
 
-
-
-
-@media only screen and (min-width:768px) {
-
+@media only screen and (min-width: 768px) {
   .mainTitle {
     /* position: relative; */
     display: block;
     background-color: #ededed;
     height: 100%;
-    padding: 20px 0px 0px ;
+    padding: 20px 0px 0px;
+    text-align: left;
+    animation-name: appearance;
+    animation-duration: 8s;
+  }
+
+  .nameTitles {
+    height: 100%;
+    float: left;
+    margin-bottom: 0;
+  }
+
+  .names {
+    text-align: left;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .names_main {
+    margin: 20px 0;
+  }
+
+  .profilePic {
+    position: relative;
+    float: right;
+    margin-bottom: 0;
+    padding: 0;
+    animation-name: profile-app;
+    animation-duration: 2s;
+    height: 100%;
+  }
+
+  .profilePic img {
+    position: absolute;
+    max-height: 100%;
+    width: auto;
+    bottom: 0px;
+  }
+
+  h1 {
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 20px;
+    font-family: "Raleway", sans-serif;
+    animation-name: h1appear;
+    animation-duration: 1s;
+  }
+  @keyframes h1appear {
+    from {
+      padding-left: 400px;
+    }
+  }
+  h2 {
+    font-size: 30px;
+    margin: 0px;
+    animation-name: h2appear;
+    animation-duration: 0.5s;
+  }
+  @keyframes h2appear {
+    from {
+      padding-left: 300px;
+    }
+  }
+  h3 {
+    font-size: 30px;
+    margin: 0px;
+    animation-name: h3appear;
+    animation-duration: 0.5s;
+  }
+  @keyframes h3appear {
+    from {
+      padding-left: 300px;
+    }
+  }
+  h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    border-bottom: solid;
+    border-width: 1px;
+  }
+}
+
+@media only screen and (min-width: 1087px) {
+  .mainTitle {
+    /* position: relative; */
+    display: block;
+    background-color: #ededed;
+    height: 100%;
+    padding: 20px 0px 0px;
     text-align: left;
     animation-name: appearance;
     animation-duration: 8s;
@@ -151,7 +239,6 @@ h4 {
     animation-duration: 2s;
     height: 100%;
   }
-  
 
   .profilePic img {
     position: absolute;

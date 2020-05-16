@@ -5,6 +5,7 @@
 
 p {
   font-size: 15px;
+  line-height: 18px;
 }
 
 .shortIntro {
@@ -18,8 +19,8 @@ p {
   text-align: justify;
   margin: 0 30px;
  
+ 
 }
-
 @media only screen and (min-width: 768px)  {
 
   .shortintro_p {
@@ -27,7 +28,33 @@ p {
   }
 
   .shortIntro {
-    padding: 50px 350px 20px;
+    padding: 50px  20px;
+  }
+
+  /* .history {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 00px;
+  } */
+
+  .historyParts {
+    /* width: 550px; */
+    font-size: 15px;
+    text-align: justify;
+    margin: 0 30px;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (min-width: 1087px)  {
+
+  .shortintro_p {
+    font-size: 30px;
+  }
+
+  .shortIntro {
+    padding: 50px  20px;
   }
 
   .history {
