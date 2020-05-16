@@ -1,16 +1,16 @@
 h5 {
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   margin-bottom: 5px;
   margin-top: 20px;
 }
 
 .portfolio {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .portfolioTitle {
-  padding: 0 110px;
+  padding: 0 20px;
   text-align: left;
 }
 
@@ -24,22 +24,33 @@ h5 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  
+  padding: 0 20px;
 }
 
-
+.singleProject {
+  display: block;
+  width: 100%;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain ;
+  margin-bottom: 5px;
+  color: white;
+}
 
 .singleProject a {
-  font-size: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
 }
 
 .singleProject p {
-  font-size: 20px;
+  font-size: 0px;
 }
 
 .singleProject span {
   background: rgba(0, 0, 0, 0.7);
-  height: 200px;
+  height: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,4 +64,49 @@ h5 {
 
 .singleProject a:hover {
   cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  h5 {
+    font-size: 30px;
+  }
+
+  .portfolioTitle {
+    text-align: left;
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .singleProject {
+    display: block;
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+    color: white;
+  }
+  .singleProject a {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .singleProject p {
+    font-size: 20px;
+  }
+  .singleProject span {
+    background: rgba(0, 0, 0, 0.7);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: 1s;
+  }
 }

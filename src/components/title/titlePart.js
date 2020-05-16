@@ -5,8 +5,9 @@ import MyButton from "../myButton";
 
 function TitlePart() {
   return (
-    <div className="mainTitle">
-      <div className=" nameTitles">
+    <div className="mainTitle row">
+      <div className="col-1"></div>
+      <div className=" nameTitles col-5">
         <div className="names">
           <h4>Resume</h4>
           <div className="names_main">
@@ -17,9 +18,10 @@ function TitlePart() {
           <MyButton text="CONTACT ME" />
         </div>
       </div>
-      <div className="profilePic">
+      <div className="profilePic col-5">
         <img src={hamid} />
       </div>
+      <div className="col-1"></div>
     </div>
   );
 }

@@ -1,9 +1,9 @@
 .mainTitle {
-  position: relative;
+  /* position: relative; */
   display: block;
   background-color: #ededed;
-  height: 100%;
-  padding: 20px 0px 0px 100px;
+  /* height: 100%; */
+  padding: 20px 20px 0px ;
   text-align: left;
   animation-name: appearance;
   animation-duration: 8s;
@@ -23,46 +23,46 @@ img {
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 40px;
   font-weight: 900;
   line-height: 20px;
   font-family: "Raleway", sans-serif;
   animation-name: h1appear;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
 }
 @keyframes h1appear {
   from {
-    padding-left: 400px;
+    padding-left: 100px;
   }
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 20px;
   margin: 0px;
   animation-name: h2appear;
-  animation-duration: 0.5s;
+  animation-duration: 1.5s;
 }
 
 @keyframes h2appear {
   from {
-    padding-left: 300px;
+    padding-left: 100px;
   }
 }
 
 h3 {
-  font-size: 40px;
+  font-size: 20px;
   margin: 0px;
   animation-name: h3appear;
-  animation-duration: 0.5s;
+  animation-duration: 1.5s;
 }
 @keyframes h3appear {
   from {
-    padding-left: 300px;
+    padding-left: 100px;
   }
 }
 
 h4 {
-  font-size: 20px;
+  font-size: 10px;
   margin-bottom: 20px;
   padding-bottom: 20px;
   font-weight: bold;
@@ -71,20 +71,28 @@ h4 {
 }
 
 .nameTitles {
-  height: 100%;
+  /* height: 100%; */
   float: left;
   margin-bottom: 0;
 }
 
 .profilePic {
-  position: absolute;
-  right: 200px;
-  bottom: 0px;
+  /* position: relative; */
+  /* right: 200px; */
+  /* bottom: 0px; */
   float: right;
   margin-bottom: 0;
   padding: 0;
   animation-name: profile-app;
-  animation-duration: 2s;
+  animation-duration: 3s;
+  height: 100%;
+}
+
+.profilePic img {
+  /* position: absolute; */
+  max-height: 100%;
+  width: auto;
+  /* bottom: 0px; */
 }
 
 @keyframes profile-app {
@@ -95,12 +103,104 @@ h4 {
 }
 
 .names {
-  height: 100%;
+  /* height: 100%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.names_main {
-  margin: 20px 0;
+
+
+
+@media only screen and (min-width:768px) {
+
+  .mainTitle {
+    /* position: relative; */
+    display: block;
+    background-color: #ededed;
+    height: 100%;
+    padding: 20px 0px 0px ;
+    text-align: left;
+    animation-name: appearance;
+    animation-duration: 8s;
+  }
+
+  .nameTitles {
+    height: 100%;
+    float: left;
+    margin-bottom: 0;
+  }
+
+  .names {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .names_main {
+    margin: 20px 0;
+  }
+
+  .profilePic {
+    position: relative;
+    float: right;
+    margin-bottom: 0;
+    padding: 0;
+    animation-name: profile-app;
+    animation-duration: 2s;
+    height: 100%;
+  }
+  
+
+  .profilePic img {
+    position: absolute;
+    max-height: 100%;
+    width: auto;
+    bottom: 0px;
+  }
+
+  h1 {
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 20px;
+    font-family: "Raleway", sans-serif;
+    animation-name: h1appear;
+    animation-duration: 1s;
+  }
+  @keyframes h1appear {
+    from {
+      padding-left: 400px;
+    }
+  }
+  h2 {
+    font-size: 40px;
+    margin: 0px;
+    animation-name: h2appear;
+    animation-duration: 0.5s;
+  }
+  @keyframes h2appear {
+    from {
+      padding-left: 300px;
+    }
+  }
+  h3 {
+    font-size: 40px;
+    margin: 0px;
+    animation-name: h3appear;
+    animation-duration: 0.5s;
+  }
+  @keyframes h3appear {
+    from {
+      padding-left: 300px;
+    }
+  }
+  h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    border-bottom: solid;
+    border-width: 1px;
+  }
 }

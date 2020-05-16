@@ -5,9 +5,13 @@ import Projects from "./projects";
 
 function Portfolio() {
   return (
-    <div className="portfolio">
-      <PortfolioTitle />
-      <Projects />
+    <div className="row">
+      <div className="col-1"></div>
+      <div className="portfolio col-10">
+        <PortfolioTitle />
+        <Projects />
+      </div>
+      <div className="col-1"></div>
     </div>
   );
 }
